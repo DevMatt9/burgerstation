@@ -1,0 +1,79 @@
+.navbar-cheddar {
+  background-color: #ff8c00;
+  padding: 0.8rem 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  border-bottom: 3px solid #d97706;
+}
+
+.navbar-cheddar .navbar-brand {
+  color: white !important;
+  font-weight: 900;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+  transition: transform 0.2s ease;
+}
+
+.navbar-cheddar .navbar-brand:hover {
+  transform: scale(1.05);
+}
+
+.navbar-cheddar .nav-link {
+  color: white !important;
+  font-weight: 600;
+  margin: 0 0.75rem;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.navbar-cheddar .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0%;
+  height: 2px;
+  background-color: white;
+  transition: width 0.3s ease;
+}
+
+.navbar-cheddar .nav-link:hover::after {
+  width: 100%;
+}
+
+.navbar-cheddar .nav-link:hover {
+  color: #fff8e7 !important;
+}
+
+/* Responsive spacing for smaller devices */
+@media (max-width: 768px) {
+  .navbar-cheddar {
+    padding: 0.5rem 1rem;
+  }
+
+  .navbar-cheddar .nav-link {
+    margin: 0.5rem 0;
+  }
+
+  .navbar-cheddar .navbar-brand {
+    font-size: 1.25rem;
+  }
+}
+
+.promo-banner {
+  background-color: #d62828;
+  color: white;
+}
+
+.btn-ubereats {
+  background-color: #3FC060!important;
+  color: white !important;
+  border: 2px solid #3FC060!important;
+  transition: 0.3s!important;
+}
+
+.btn-ubereats:hover {
+  background-color: #162328!important;
+  color: #3FC060!important;
+  border-color: white!important;
+}
