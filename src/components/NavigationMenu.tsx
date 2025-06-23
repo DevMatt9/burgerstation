@@ -12,7 +12,7 @@ const NavigationMenu = () => {
           </Nav>
 
           <Navbar.Brand className="mx-auto">
-            <img src="/assets/logo-burger.png" alt="Burger Logo" height="128" />
+            <img src="assets/logo-burger.png" alt="Burger Logo" height="128" />
           </Navbar.Brand>
 
           <Nav className="ms-auto">

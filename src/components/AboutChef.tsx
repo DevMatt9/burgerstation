@@ -9,7 +9,7 @@ const AboutChef = () => {
           <Col md={6}>
             <div className="video-square">
               <video className="w-100 h-100 object-fit-cover" autoPlay muted loop>
-                <source src="/assets/aboutchef.mp4" type="video/mp4" />
+                <source src="assets/aboutchef.mp4" type="video/mp4" />
                 Votre navigateur ne prend pas en charge les vidéos.
               </video>
             </div>

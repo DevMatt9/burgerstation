@@ -10,11 +10,11 @@ interface Burger {
 }
 
 const burgers: Burger[] = [
-  { name: 'Le Classic', image: '/assets/burgers/classic.png' },
-  { name: 'Le Spicy', image: '/assets/burgers/spicy.png', isNew: true },
-  { name: 'Le Veggie', image: '/assets/burgers/veggie.png' },
-  { name: 'Le Double', image: '/assets/burgers/double.png' },
-  { name: 'Le BBQ', image: '/assets/burgers/bbq.png' },
+  { name: 'Le Classic', image: 'assets/burgers/classic.png' },
+  { name: 'Le Spicy', image: 'assets/burgers/spicy.png', isNew: true },
+  { name: 'Le Veggie', image: 'assets/burgers/veggie.png' },
+  { name: 'Le Double', image: 'assets/burgers/double.png' },
+  { name: 'Le BBQ', image: 'assets/burgers/bbq.png' },
 ];
 
 const responsive = {
